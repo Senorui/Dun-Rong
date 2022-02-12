@@ -1,0 +1,83 @@
+window._CCSettings = {
+    platform: "web-mobile",
+    groupList: ["default", "Monkey", "Floor", "Sea", "Enemy", "NotFloor", "other5"],
+    collisionMatrix: [
+        [false, false, false, false, false, false, false],
+        [false, false, true, true, true, true, false],
+        [false, true, false, false, false, false, false],
+        [false, true, false, false, true, false, false],
+        [false, true, false, true, false, false, false],
+        [false, true, false, false, false, false, false],
+        [false, false, false, false, false, false, false]
+    ],
+    rawAssets: {
+        assets: {
+            "0": ["resources/panel/GameOverLayer.prefab", 2],
+            "56tk+McjtBoqXrJgcWTEB6": ["MyAudio/BGM.mp3", 0],
+            "fcv9hJ9/ZB95xbn1+WeaCX": ["MyAudio/Death.mp3", 0],
+            f3bama8UNKeZ2JvizAG1T0: ["MyAudio/Grass.mp3", 0],
+            "41k6tv+NhAKKNvhT4+Y//J": ["MyAudio/Jump1.mp3", 0],
+            "22Z/7moKZG37O920yOyy2d": ["MyAudio/Jump2.mp3", 0],
+            "41LTtAwKFOQoJrMyWrHV4v": ["MyAudio/Water.mp3", 0],
+            "13J+eAYfNI+KU3lX3+Fkqx": ["MyAudio/Wood.mp3", 0],
+            "1e5A6sErZO1JIelfn0XRfP": ["MyTexture/1.png", 1],
+            "d4IDXzbR9PJYpHPobgt+J9": ["MyTexture/10.png", 1],
+            "56J6hQ+Y9L751Mk4advrCF": ["MyTexture/11.png", 1],
+            "de3+IsuFNB0pz8DqekSL6L": ["MyTexture/12.png", 1],
+            "4cRhY4ltxBl5UIzboqDmHM": ["MyTexture/2.png", 1],
+            "02GQfN4WxGgpEqnG6rT+Qj": ["MyTexture/5.png", 1],
+            "32VxD5B/hAPaMQjzmrbEg4": ["MyTexture/6.png", 1],
+            "2189XYuNJBPaKiw1L02GPZ": ["MyTexture/7.png", 1],
+            "6eL1PfCwRCDbOGNviWxsEY": ["MyTexture/9.png", 1],
+            "6anWdXxMxFF4/7LZ1Nt3b0": ["MyTexture/End/jieshu.png", 1],
+            "679a39hSlJWJ0BSWp+oUfO": ["MyTexture/End/jieshu1.png", 1],
+            "42v6Z2TYRGOoYBaQeVJ39w": ["MyTexture/End/jieshu3.png", 1],
+            "26bLSLxJ1GZZp1Trp4bR1N": ["MyTexture/End/number.png", 1],
+            ffxOvySqJG76P1ohOJazrO: ["MyTexture/End/zuigaofen.png", 1],
+            f1PbTNEoBJKKrBhn9ET8dF: ["MyTexture/Guide/Click1.png", 1],
+            "0csA/Hs2pDf7VIno80rc9e": ["MyTexture/Guide/Click2.png", 1],
+            "3fOjHecFFHhZI/alktFMrb": ["MyTexture/MonkeyEffect/lizi.png", 1],
+            abnCfNqRxHfbWXBtkEdrdB: ["MyTexture/MonkeyEffect/lizi1.png", 1],
+            "0736MvwGVMSJxCDoUZobol": ["MyTexture/MonkeyEffect/lizi2.png", 1],
+            "7b4D+rbRZHTJQyAPpcjypL": ["MyTexture/beijing.png", 1],
+            be8phD9QBIfbru0GrRbTEB: ["MyTexture/cao.png", 1],
+            "05HB65+FxGRaczr85OIKUA": ["MyTexture/dimian.png", 1],
+            "75+jzJu61ORYifXRFKyFWj": ["MyTexture/jianying.png", 1],
+            "80TfdrIwZPCZMjgmgvUKPA": ["MyTexture/mutiao.png", 1],
+            c2sR05XhtJ6Kc0mSaLS7Ht: ["MyTexture/relive/1.png", 1],
+            "8bSaWKx0dDsp1GK9ilV+J3": ["MyTexture/relive/bg.png", 1],
+            "85jSwHv1xLUY9E8BzWadlC": ["MyTexture/relive/noBtn.png", 1],
+            b9Ss8v9IVNy6Vy5VaNG1K4: ["MyTexture/relive/text.png", 1],
+            "2aZhiXj4tI2Ku/oqm/z93x": ["MyTexture/relive/yesBtn.png", 1],
+            a8McVbFDxPNL9pYwqlPmW6: ["MyTexture/score.png", 1],
+            "06fcrl2ylCa4wYzwPKg5nQ": ["MyTexture/shuipaolizi.png", 1],
+            "1acCdblDVCVp9dADO/blEY": ["MyTexture/tuo.png", 1],
+            "29X5WPcWtMCI1QNrtKkRXi": ["MyTexture/yu.png", 1],
+            "2az5QtOLZJ1ZDkZtUY6FeG": ["MyTexture/yu2.png", 1],
+            "a1/pBfYZhKjaDDJClfhDo7": ["Texture/gameOverPic/btn_comMore1.png", 1],
+            "3b5V3m3VBNXbaXHmWjKsC2": ["Texture/gameOverPic/btn_comMore2.png", 1],
+            "5aqToRvfBCNbhG3e32kRzM": ["Texture/gameOverPic/button1.png", 1],
+            "292nqIZ1xO0KmLyOv5GA30": ["Texture/gameOverPic/score_bg.png", 1],
+            a8Anh32NZGRZegUtSgEj26: ["Texture/singleColor.png", 1],
+            "41eopZwPxHZ4viv1Eku0uN": ["resources/panel/LinkIconSpr.prefab", 2]
+        },
+        internal: {
+            "71VhFCTINJM6/Ky3oX9nBT": ["image/default_btn_disabled.png", 1],
+            "b4P/PCArtIdIH38t6mlw8Y": ["image/default_btn_pressed.png", 1],
+            d8HsitJHxOYqo801xBk8ev: ["image/default_panel.png", 1],
+            "02delMVqdBD70a/HSD99FK": ["image/default_sprite_splash.png", 1]
+        }
+    },
+    assetTypes: ["cc.AudioClip", "cc.Texture2D", "cc.Prefab"],
+    launchScene: "db://assets/Scene/MainGameScene.fire",
+    scenes: [{
+        url: "db://assets/Scene/MainGameScene.fire",
+        uuid: 1
+    }],
+    packedAssets: {
+        "051bb9ea8": ["11dlAA+B5AKJ6pkofqiD07", "26QrUjZ/NC3qtEqDo8vTMA", "29FYIk+N1GYaeWH/q1NxQO", "34R3lnfbNMv5L6ZAG+xSeu", "41D7kWhyFGY7q4NDlzkazn", "7dMxilsVFO7KhyGLUf8DtC", "8dUdNvKzFMPosoqYAYbkbO", "9cGLxZ1s1IhplIRuCyRUzv", "a2MjXRFdtLlYQ5ouAFv/+R", "d0yNCcD19AWJWVb50cTXs0", "d2W5cVv6xIKb70c3bLS1yB", 0, "e4fhOUOlJBwLu6wVK8PPag", "e97GVMl6JHh5Ml5qEDdSGa", "faXAasOthBV4dJrGXhhX/8"],
+        "07db38011": ["0957FfoStFNr5nkVC1Ry5H", "0d9JztgbdGZI6Ib28Jr6YV", "0fEDlkxjZE85EAD9P8QYJi", "0fpg264oFN+aSCNx5sJrJ+", "10P/eBv0FMh7YYmbWgCEgU", "107YEQDsZGJ6V+Ts+t5/xV", "23S7LOFDpGsoOTjIakFxE0", "29AAUbmztCTbYyEw0eeThY", "29XJ6nhEhCnqexE8U+aqgl", "2b3ASKmBFPjp65jGYOseHZ", "488oz4EplDKbm7Xn0GQAO+", "51pSaNo7hND5Vi90hNiz4l", "59vI6pinJG0IHjQ5AYFEuu", "64fBQqn/xAQbCefhPPEiUD", "66L80e7jdMsbskA/1Govn+", "6bUj7K7apKMokWwsPlCBCM", "73bsWNlc9CAKlk64El4QPm", "7aSRkfCEtHIYhI8uRU2ZLE", "80BMm/eLlPFJOl44xhseDA", "837w4Zoh9Dbphir15JOgN0", "841MOWYgBP+4ECwMPUUzyd", "86SosJpFVBupaoyHMG271y", "98FXFrGHVHRbfSGwKcS+f4", "9biHFOI9hDKoPeOWdzIfnf", "9bvaMerUlDyary99mJa6xp", "a4mmPSizhJiqKHN5278B3K", "a4qRGh+2pC/Y35YCvmND2r", 1, "b6oAI7jedO74LHFouaWPy/", "b7rDR3iahP/YRUR4106R9v", "b9Ah5tjC9HTYEKu8zyCRxo", "bcZ+TXYopOdL0I0tHqFNuV", "c7nBSd1itFIYfR0CPScsva", "d3Vply6tlJOp7eJ0s6iEla", "d3xZJ+ytZK6ITbrYa4PJQO", "dbCLivCn1BxIreh+KD/+tC", "dcHFlFrmJAvYsIk4HNN3Vi", "ddnXYzG4JNi6OucRlyXgXv", "e48TXw9SRPLJtCh2qgp+JF", "e82iBqRqlJNbN8LxIjSi/x"]
+    },
+    orientation: "",
+    uuids: ["d42UJPCZRDh5vQjrW6cf9h", "a7MqhrNAxAEbpM8iH4ZvYP"]
+};
